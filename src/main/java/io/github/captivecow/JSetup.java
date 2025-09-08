@@ -1,10 +1,10 @@
 package io.github.captivecow;
 
-/**
- * Hello world!
- */
+import javax.swing.SwingUtilities;
+
 public class JSetup {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ScreenController screenController = new ScreenController();
+        screenController.init();
     }
 }
